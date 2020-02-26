@@ -1,0 +1,24 @@
+{
+  "name": "bakeryclicker",
+  "version": "1.0.0",
+  "description": "A clicker game where you run the show as a Baker",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barondzines/bakery-clicker.git"
+  },
+  "keywords": [
+    "click",
+    "game",
+    "javascript"
+  ],
+  "author": "Baron Pollak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barondzines/bakery-clicker/issues"
+  },
+  "homepage": "https://github.com/barondzines/bakery-clicker#readme"
+}
