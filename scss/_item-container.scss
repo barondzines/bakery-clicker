@@ -1,0 +1,37 @@
+@import "vars";
+
+.items-container{
+
+      background-color: $background-color;
+      border-radius: $global-border-radius;
+      padding: 10px;
+
+      //editing the tabs containerClass
+      .tabs{
+        background-color: transparent;
+        border:0px;
+
+        a{
+          color:#fff;
+          &:hover{
+            background-color: transparent;
+          }
+          &[aria-selected=true]{
+            background: transparent;
+          }
+        }
+        .tabs-title {
+            float: right;
+        }
+      }
+
+      .tabs-title>a[aria-selected=true]{
+        background: transparent;
+      }
+
+      .tabs-content{
+        background: transparent;
+        border: 0;
+      }
+
+}

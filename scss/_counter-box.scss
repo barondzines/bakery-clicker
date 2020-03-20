@@ -1,0 +1,25 @@
+.counter-box{
+  position:relative;
+
+  .number-float{
+    position: absolute;
+    width:100%;
+    top:150px;
+    left:0;
+    margin:auto;
+    font-size: 25px;
+    opacity: 0;
+    font-weight: bold;
+    z-index: 99;
+    transition: opacity .01s ease-out;
+    transition: transform .25s ease-in-out;
+
+
+    &.num-effect{
+      opacity:1;
+      transform: translate(0px, -120px);
+      //transition-timing-function: ease-out;
+      //transition: 1s;
+    }
+  }
+}

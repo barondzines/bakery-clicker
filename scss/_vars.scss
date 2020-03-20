@@ -1,0 +1,26 @@
+
+$color-primary: #1B6AA2;
+$color-primary-dark: darken($color-primary, 10%);
+$color-primary-light: lighten($color-primary, 10%);
+$color-secondary: #89CDA6;
+$color-secondary-dark: darken($color-secondary, 10%);
+$color-secondary-light: lighten($color-secondary, 10%);
+$color-tertiary: #EEAFC4;
+$color-tertiary-dark: darken($color-tertiary, 10%);
+$color-tertiary-light: lighten($color-tertiary, 10%);
+$color-quardinary: #7F93CF;
+$color-quardinary: darken($color-quardinary, 10%);
+$color-quardinary: lighten($color-quardinary, 10%);
+
+$primary-font-color: #fff;
+
+$background-color: #6A6D9B;
+$foreground-color: darken($background-color, 10%);
+$farground-color: darken($background-color, 5%);
+
+$global-border-radius: 10px;
+
+
+$font-family: 'Oswald', sans-serif;
+
+$pink-hot: #f36881;

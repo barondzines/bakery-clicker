@@ -1,0 +1,35 @@
+.single-item{
+  background-color: $foreground-color;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+
+      .title{
+        display:inline-block;
+        p{
+          margin-bottom: 0.2rem;
+        }
+
+        &__name{
+          font-size: 16px;
+          display:inline;
+        }
+        &__level{
+          background-color: $color-tertiary;
+          border-radius: 80px;
+          padding: 4px 10px;
+          margin-right: 5px;
+          width: 20px;
+          height: 20px;
+          font-size: 18px;
+          display: inline;
+
+        }
+
+        &__production-text{
+          font-size:12px;
+          font-style: italic;
+        }
+      }
+}

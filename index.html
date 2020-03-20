@@ -10,29 +10,31 @@
 <!-- Compressed JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.4.3/dist/js/foundation.min.js" integrity="sha256-mRYlCu5EG+ouD07WxLF8v4ZAZYCA6WrmdIXyn1Bv9Vk= sha384-KzKofw4qqetd3kvuQ5AdapWPqV1ZI+CnfyfEwZQgPk8poOLWaabfgJOfmW7uI+AV sha512-0gHfaMkY+Do568TgjJC2iMAV0dQlY4NqbeZ4pr9lVUTXQzKu8qceyd6wg/3Uql9qA2+3X5NHv3IMb05wb387rA==" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Bakery Name Here</title>
+    <script type="text/javascript" src="js/game-effects.js"></script>
+    <title>Bakery Clicker</title>
 </head>
 <body>
-    <div class="grid-container full">
+    <div class="grid-container header-container full">
         <div class="grid-x grid-paddin-y">
             <div class="cell text-center">
-                Baker name Here
+                Bakery Clicker
             </div>
         </div>
     </div>
-    <div class="grid-container">
-        <div class="grid-x medium-up-2">
-            <div class="cell text-center">
-              <div class="grid-x">
-                <div class="cell">
-                  <div class="clicker_img">
-                    <img src="./assets/cupcake-lg.png" alt="CupCake" onclick="bakegood.create()">
-                  </div>
-                  <button id="make-button" class="primary button" onclick="bakegood.create()" >
-                      Make Cupcakes
-                  </button>
+    <div class="grid-container main-container">
+        <div class="grid-x medium-up-2 grid-margin-x">
+            <div class="cell text-center confection-container">
+              <div class="grid-x grid-padding-x padding-y">
+                <div class="cell counter-box">
+                    <div id="bake_good_display_float" class="bakedGoods">0 <span>Items Baked</span></div>
+                    <div id="number-float" class="number-float"></div>
                 </div>
-                <div class="cell">
+                <div id="confection_img_container" class="cell padding-y">
+
+                </div>
+                <div class="cell confections-container padding-y">
+                  <span>Pick Your Confection</span>
+
                     <div id="confection_container" class="grid-x grid-padding-x align-middle align-center">
 
                     </div>
@@ -40,7 +42,7 @@
               </div>
 
             </div>
-            <div class="cell text-center">
+            <div class="cell text-center additions-container">
 
                 <div class="grid-x">
                     <div class="cell text-right">
@@ -49,7 +51,7 @@
                         <div id="bake_good_demand" class="customerDemand">0 <span>Customer(s) Buying</span></div>
                         <div id="bake_good_speed" class="soldPer"><span>Items Sold every</span> 2 <span>second(s)</span></div>
                     </div>
-                    <div class="cell">
+                    <div class="cell items-container">
 
                         <ul class="tabs text-right" data-active-collapse="true" data-tabs id="collapsing-tabs">
                             <li class="tabs-title is-active"><a href="#panel1c" aria-selected="true">Building</a></li>
